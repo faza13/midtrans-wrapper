@@ -1,0 +1,24 @@
+{
+    "name": "faza13/midtrans-wrapper",
+    "description": "midtrans wrapper for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faza",
+            "email": "fazaa.13@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Faza13\\MidtransWrapper\\" : "src/"
+        }
+    },
+    "require": {
+        "midtrans/midtrans-php": "^2.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
