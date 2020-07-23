@@ -1,7 +1,7 @@
 <?php
 
 
-namespace fazaa13\MidtransWrapper;
+namespace Faza13\MidtransWrapper;
 
 
 use Midtrans\Config;
