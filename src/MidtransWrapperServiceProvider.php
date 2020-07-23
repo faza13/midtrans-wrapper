@@ -4,6 +4,7 @@ namespace Faza13\MidtransWrapper;
 
 
 use Illuminate\Support\ServiceProvider;
+use App;
 
 class MidtransWrapperServiceProvider extends ServiceProvider
 {
@@ -22,7 +23,7 @@ class MidtransWrapperServiceProvider extends ServiceProvider
             $this->getConfigPath(), 'midtrans_wrapper'
         );
 
-        App::bind('midtrans.wrapper',function() {
+         $this->app->bind('midtrans.wrapper',function() {
             return new MidtransWrapper;
         });
     }
